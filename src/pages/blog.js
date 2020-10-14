@@ -33,11 +33,12 @@ export const pageQuery = graphql`
             title
             date
             author
+            
+                }
+              }
+            }
           }
         }
-      }
-    }
-  }
 `
 
 export default BlogPage
