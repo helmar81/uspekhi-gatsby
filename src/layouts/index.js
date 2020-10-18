@@ -6,6 +6,9 @@ import Header from '../components/header'
 import Menu from '../components/menu'
 import './index.css'
 
+
+
+
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
@@ -19,6 +22,7 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
+    
     <Menu />
     <div
       style={{
@@ -29,6 +33,12 @@ const Layout = ({ children, data }) => (
       }}
     >
       {children()}
+      <footer>
+      Copyright© {new Date().getFullYear()}, created by
+      {` `}
+      <a href="https://uspekhi.web.app" target="blank" rel="noopener">USPEKHI</a>
+    </footer>
+
     </div>
   </div>
 )
@@ -38,6 +48,7 @@ Layout.propTypes = {
 }
 
 export default Layout
+
 
 export const query = graphql`
   query SiteTitleQuery {

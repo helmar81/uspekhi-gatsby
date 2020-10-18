@@ -3,11 +3,14 @@ path: "/google-analytics"
 date: "2018-04-11"
 title: "Google Analytics"
 author: "Helmar Bachle"
+featuredImage: global.jpg
 
 ---
 
-###How to set up GOOGLE Analytics
+###How to set it up 
 ####and using it as a digital marketing tool
+
+![Hopper The Rabbit](./global.jpg)
 
 Google Analytics is a very important digital marketing tool, but seriously underused by most businesses and website owners. It allows you to measure the results of individual campaigns in real-time and compare the data to previous periods. You obtain insight of demographics, location, behaviour, interests, technology and so much more
 

@@ -21,6 +21,8 @@ const Header = ({ siteTitle }) => (
           style={{
             color: 'white',
             textDecoration: 'none',
+            display: 'flex',
+            left: '0',
           }}
         >
           {siteTitle}

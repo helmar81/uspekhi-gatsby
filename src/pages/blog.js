@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+
+
+
 const BlogPage = ({ data }) => (
   <div>
     <h1>Latest Posts</h1>

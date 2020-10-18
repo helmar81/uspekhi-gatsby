@@ -647,6 +647,25 @@ html {
   size: 70px;
 }
 
+.footer{
+  margin-top: 1rem;
+  padding: 0.3rem;
+  background-color: rgb(213, 215, 233);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  align-self: center;
+}
+
+footer {
+  height:250px;
+  margin-top: 15px; /* Höhe des Footers */
+  background-color: rgb(213, 215, 233);
+  width: 100%;
+  
+ }
+
 
 @media only screen and (max-width: 480px) {
   html {
